@@ -1,0 +1,556 @@
+@keyframes viking {
+    0%, 100% {
+        transform: rotate(17deg);
+    }
+    12.50% {
+        transform: translate(6px, 25px) rotate(12deg);
+    }
+    25% {
+        transform: translate(-9px, 50px) rotate(20deg);
+    }
+    37.44% {
+        transform: translate(-25px, 8px) rotate(28deg);
+    }
+    54.16% {
+        transform: translate(-1px, 6px) rotate(15deg);
+    }
+    66.50% {
+        transform: translate(5px, 34px) rotate(13deg);
+    }
+    75% {
+        transform: translate(-12px, 46px) rotate(21deg);
+    }
+}
+
+/* Right */
+@keyframes vikingShoulderRight {
+    0%, 100% {
+        transform: translate(-23px, -13px) rotate(-2deg);
+    }
+    12.50% {
+        transform: rotate(56deg);
+    }
+    25% {
+        transform: translate(-4px, 39px) rotate(80deg);
+    }
+    37.44% {
+        transform: translate(26px, 57px) rotate(78deg)
+    }
+    54.16% {
+        transform: translate(0px, 6px) rotate(5deg);
+    }
+    66.50% {
+        transform: translate(10px, -8px) rotate(-17deg);
+    }
+    75% {
+        transform: translate(11px, -16px) rotate(-37deg);
+    }
+}
+
+@keyframes vikingArmRight {
+    0%, 100% {
+        transform: rotate(-73deg);
+    }
+    12.50% {
+    }
+    25% {
+    }
+    37.44% {
+    }
+    54.16% {
+        transform: rotate(-47deg);
+    }
+    66.50% {
+        transform: rotate(-52deg);
+    }
+    75% {
+        transform: rotate(-61deg);
+    }
+}
+
+@keyframes vikingLegRight {
+    0%, 100% {
+        transform: translate(-3px, -4px) rotate(-73deg);
+    }
+    12.50% {
+        transform: translate(-22px, 0px) rotate(-56deg) scaleY(0.9);
+    }
+    25% {
+        transform: translate(-22px, 0px) rotate(-72deg) scaleY(1);
+    }
+    37.44% {
+        transform: translate(-22px, 0px) rotate(-49deg) scaleY(1);
+    }
+    54.16% {
+        transform: translate(-22px, 0px) rotate(-2deg) scaleY(1);
+    }
+    66.50% {
+        transform: translate(-22px, 0px) rotate(-39deg) scaleY(1);
+    }
+    75% {
+        transform: translate(-3px, 0px) rotate(-97deg) scaleY(1);
+    }
+}
+
+@keyframes vikingShinRight {
+    0%, 100% {
+        transform: rotate(23deg);
+    }
+    12.50% {
+    }
+    25% {
+        transform: rotate(62deg);
+    }
+    37.44% {
+    }
+    54.16% {
+        transform: rotate(60deg);
+    }
+    66.50% {
+        transform: rotate(109deg);
+    }
+    75% {
+        transform: rotate(127deg);
+    }
+}
+
+@keyframes vikingBootRight {
+    0%, 100% {
+        transform: rotate(2deg);
+    }
+    12.50% {
+        transform: rotate(-11deg)
+    }
+    25% {
+        transform: rotate(-8deg);
+    }
+    37.44% {
+    }
+    54.16% {
+        transform: rotate(3deg);
+    }
+    66.50% {
+        transform: rotate(32deg);
+    }
+    75% {
+    }
+}
+
+@keyframes vikingBootPartRight {
+    0%, 100% {
+        transform: skewY(1deg);
+    }
+    12.50% {
+    }
+    25% {
+    }
+    37.44% {
+    }
+    54.16% {
+    }
+    66.50% {
+    }
+    75% {
+        transform: rotate(21deg);
+    }
+}
+
+
+/* Left */
+@keyframes vikingShoulderLeft {
+    0%, 100% {
+        transform: translate(-12px, -12px) rotate(-7deg);
+    }
+    12.50% {
+        transform: translate(4px, -24px) rotate(-25deg);
+    }
+    25% {
+        transform: translate(10px, -16px) rotate(-50deg);
+    }
+    37.44% {
+        transform: translate(14px, -11px) rotate(-41deg);
+    }
+    54.16% {
+        transform: translate(-8px, -21px) rotate(2deg);
+    }
+    66.50% {
+        transform: translate(-18px, -21px) rotate(28deg);
+    }
+    75% {
+        transform: translate(-15px, -15px) rotate(23deg);
+    }
+}
+
+@keyframes vikingArmLeft {
+    0%, 100% {
+        transform: rotate(-2deg);
+    }
+    12.50% {
+        transform: rotate(-19deg);
+    }
+    25% {
+    }
+    37.44% {
+        transform: rotate(-39deg);
+    }
+    54.16% {
+        transform: rotate(-48deg);
+    }
+    66.50% {
+        transform: rotate(-40deg);
+    }
+    75% {
+        transform: rotate(-19deg);
+    }
+}
+
+@keyframes vikingLegLeft {
+    0%, 100% {
+    }
+    12.50% {
+        transform: translate(-14px, 9px) rotate(-11deg);
+    }
+    25% {
+        transform: translate(15px, -10px) rotate(-75deg);
+    }
+    37.44% {
+        transform: translate(37px, -10px) rotate(-122deg);
+    }
+    54.16% {
+        transform: translate(-14px, 9px) rotate(-91deg);
+    }
+    66.50% {
+        transform: translate(-14px, 9px) rotate(-81deg);
+    }
+    75% {
+        transform: translate(1px, -2px) rotate(-65deg);
+    }
+}
+
+@keyframes vikingShinLeft {
+    0%, 100% {
+        transform: rotate(40deg);
+    }
+    12.50% {
+        transform: rotate(85deg);
+    }
+    25% {
+        transform: rotate(133deg);
+    }
+    37.44% {
+        transform: rotate(108deg);
+    }
+    54.16% {
+        transform: rotate(40deg);
+    }
+    66.50% {
+        transform: rotate(59deg) scaleY(0.94);
+    }
+    75% {
+        transform: rotate(59deg) scaleY(0.94);
+    }
+}
+
+@keyframes vikingBootLeft {
+    0%, 100% {
+        transform: rotate(4deg);
+    }
+    12.50% {
+    }
+    25% {
+    }
+    37.44% {
+    }
+    54.16% {
+        transform: rotate(-12deg) scaleX(1.1) translate(-12px, -2px);
+    }
+    66.50% {
+        transform: rotate(-12deg) scaleX(1.1) translate(-12px, -2px);
+    }
+    75% {
+        transform: rotate(-12deg) scaleX(1.1) translate(-12px, -2px);
+    }
+}
+
+@keyframes vikingBootPartLeft {
+    0%, 100% {
+    }
+    12.50% {
+    }
+    25% {
+    }
+    37.44% {
+    }
+    54.16% {
+    }
+    66.50% {
+    }
+    75% {
+    }
+}
+
+
+@keyframes vikingHead {
+    0%, 100% {
+        transform: translate(4px, 1px) rotate(-15deg);
+    }
+    12.50% {
+    }
+    25% {
+    }
+    37.44% {
+    }
+    54.16% {
+    }
+    66.50% {
+    }
+    75% {
+    }
+}
+
+@keyframes vikingBeard {
+    0%, 100% {
+        transform: translateY(-31px);
+    }
+    12.50% {
+    }
+    25% {
+    }
+    37.44% {
+    }
+    54.16% {
+    }
+    66.50% {
+    }
+    75% {
+    }
+}
+
+@keyframes tree1 {
+    0% {
+        transform: translateX(800px);
+    }
+    12.5% {
+        transform: translateX(700px);
+    }
+
+    25% {
+        transform: translateX(600px);
+    }
+
+    37.5% {
+        transform: translateX(500px);
+    }
+    50% {
+        transform: translateX(400px);
+    }
+    62.5% {
+        transform: translateX(300px);
+    }
+
+    75% {
+        transform: translateX(200px);
+    }
+    87.5% {
+        transform: translateX(100px);
+    }
+    99.98% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    99.99% {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes tree {
+    0% { left: 800px; }
+    100% { left: -100px; }
+}
+
+@keyframes bushes {
+    0% { left: 800px; }
+    100% { left: -100px; }
+}
+
+/*@keyframes viking {*/
+/*    0%, 100% { transform: translate(3px, -26px) rotate(17deg); }*/
+/*    12.50% { transform: translate(3px, -6px) rotate(17deg); }*/
+/*    25.00% { transform: translate(4px, 26px) rotate(17deg); }*/
+/*    37.44% { transform: translate(2px, -9px) rotate(21deg); }*/
+/*    54.16% { transform: translate(4px, -22px) rotate(15deg); }*/
+/*    66.50% { transform: translate(3px, 4px) rotate(17deg); }*/
+/*    75.00% { transform: translate(3px, 25px) rotate(18deg); }*/
+/*    87.30% { transform: translate(2px, -1px) rotate(20deg); }*/
+/*}*/
+
+/*@keyframes vikingShoulderRight {*/
+/*    0%, 100% { transform: translate(-27px, -7px) rotate(-7deg); }*/
+/*    12.50% { transform: translate(-27px, -7px) rotate(-2deg); }*/
+/*    25.00% { transform: translate(-5px, -34px) rotate(33deg); }*/
+/*    37.44% { transform: translate(-4px, -27px) rotate(25deg); }*/
+/*    54.16% { transform: translate(1px, -6px) rotate(-2deg); }*/
+/*    66.50% { transform: translate(4px, 2px) rotate(-23deg); }*/
+/*    75.00% { transform: translate(5px, -2px) rotate(-26deg); }*/
+/*    87.30% { transform: translate(-13px, 11px) rotate(-27deg); }*/
+/*}*/
+/*@keyframes vikingArmRight {*/
+/*    0%, 100% { transform: rotate(-71deg); }*/
+/*    12.50% { transform: rotate(-49deg); }*/
+/*    25.00% { transform: rotate(-37deg); }*/
+/*    37.44% { transform: rotate(-22deg); }*/
+/*    54.16% { transform: rotate(-34deg); }*/
+/*    66.50% { transform: rotate(-53deg); }*/
+/*    75.00% { transform: rotate(-69deg); }*/
+/*    87.30% { transform: rotate(-69deg); }*/
+/*}*/
+
+/*@keyframes vikingLegRight {*/
+/*    0%, 100% { transform: translate(0px, 0px) rotate(-72deg); }*/
+/*    12.50% { transform: translate(0px, 0px) rotate(-63deg); }*/
+/*    25.00% { transform: translate(-8px, -1px) rotate(-60deg); }*/
+/*    37.44% { transform: translate(-16px, 14px) rotate(-33deg); }*/
+/*    54.16% { transform: translate(-16px, 14px) rotate(9deg); }*/
+/*    66.50% { transform: translate(-3px, 7px) rotate(-39deg); }*/
+/*    75.00% { transform: translate(4px, -4px) rotate(-73deg); }*/
+/*    87.30% { transform: translate(3px, -12px) rotate(-102deg); }*/
+/*}*/
+/*@keyframes vikingShinRight {*/
+/*    0%, 100% { transform: rotate(23deg); }*/
+/*    12.50% { transform: rotate(30deg); }*/
+/*    25.00% { transform: rotate(54deg); }*/
+/*    37.44% { transform: rotate(56deg); }*/
+/*    54.16% { transform: rotate(52deg); }*/
+/*    66.50% { transform: rotate(111deg); }*/
+/*    75.00% { transform: rotate(131deg); }*/
+/*    87.30% { transform: rotate(96deg); }*/
+/*}*/
+/*@keyframes vikingBootRight {*/
+/*    0%, 100% { transform: translate(-6px, 5px) rotate(-18deg); }*/
+/*    12.50% { transform: translate(-4px, 1px) rotate(-16deg); }*/
+/*    25.00% { transform: translate(-2px, 4px) rotate(-11deg); }*/
+/*    37.44% { transform: translate(3px, -1px) rotate(-4deg); }*/
+/*    54.16% { transform: translate(9px, -1px) rotate(2deg); }*/
+/*    66.50% { transform: translate(9px, -1px) rotate(2deg); }*/
+/*    75.00% { transform: translate(9px, -1px) rotate(2deg); }*/
+/*    87.30% { transform: translate(0px, 0px) rotate(-7deg); }*/
+/*}*/
+/*@keyframes vikingBootPartRight {*/
+/*    0%, 100% { transform: skewY(0deg); }*/
+/*    12.50% { transform: skewY(0deg); }*/
+/*    25.00% { transform: skewY(0deg); }*/
+/*    37.44% { transform: skewY(0deg); }*/
+/*    54.16% { transform: skewY(0deg); }*/
+/*    66.50% { transform: skewY(26deg); }*/
+/*    75.00% { transform: skewY(26deg); }*/
+/*    87.30% { transform: skewY(19deg); }*/
+/*}*/
+/*@keyframes vikingFootRight {*/
+/*    0%, 100% { transform: rotate(0deg); }*/
+/*    12.50% { transform: rotate(0deg); }*/
+/*    25.00% { transform: rotate(0deg); }*/
+/*    37.44% { transform: rotate(0deg); }*/
+/*    54.16% { transform: rotate(3deg); }*/
+/*    66.50% { transform: rotate(27deg); }*/
+/*    75.00% { transform: rotate(27deg); }*/
+/*    87.30% { transform: rotate(19deg); }*/
+/*}*/
+
+
+/*@keyframes vikingLegLeft {*/
+/*    0%, 100% { transform: translate(-17px, 10px) rotate(7deg); }*/
+/*    12.50% { transform: translate(-16px, 10px) rotate(-26deg); }*/
+/*    25.00% { transform: translate(6px, -4px) rotate(-77deg); }*/
+/*    37.44% { transform: translate(15px, -10px) rotate(-107deg); }*/
+/*    54.16% { transform: translate(15px, -1px) rotate(-64deg); }*/
+/*    66.50% { transform: translate(2px, -1px) rotate(-64deg); }*/
+/*    75.00% { transform: translate(0px, 0px) rotate(-61deg); }*/
+/*    87.30% { transform: translate(-14px, 9px) rotate(-31deg); }*/
+/*}*/
+/*@keyframes vikingShinLeft {*/
+/*    0%, 100% { transform: rotate(49deg); }*/
+/*    12.50% { transform: rotate(95deg); }*/
+/*    25.00% { transform: rotate(135deg); }*/
+/*    37.44% { transform: rotate(101deg); }*/
+/*    54.16% { transform: rotate(19deg); }*/
+/*    66.50% { transform: rotate(41deg); }*/
+/*    75.00% { transform: rotate(54deg); }*/
+/*    87.30% { transform: rotate(54deg); }*/
+/*}*/
+/*@keyframes vikingBootLeft {*/
+/*    0%, 100% { transform: translate(8px, 6px) rotate(4deg); }*/
+/*    12.50% { transform: translate(7px, 0px) rotate(2deg); }*/
+/*    25.00% { transform: translate(7px, 3px) rotate(4deg); }*/
+/*    37.44% { transform: translate(1px, -1px) rotate(-7deg); }*/
+/*    54.16% { transform: translate(-5px, -6px) rotate(-18deg); }*/
+/*    66.50% { transform: translate(-3px, 2px) rotate(-14deg); }*/
+/*    75.00% { transform: translate(-3px, 0px) rotate(-11deg); }*/
+/*    87.30% { transform: translate(2px, 0px) rotate(-3deg); }*/
+/*}*/
+/*@keyframes vikingBootPartLeft {*/
+/*    0%, 100% { transform: skewY(0deg); }*/
+/*    12.50% { transform: skewY(18deg); }*/
+/*    25.00% { transform: skewY(33deg); }*/
+/*    37.44% { transform: skewY(18deg); }*/
+/*    54.16% { transform: skewY(0deg); }*/
+/*    66.50% { transform: skewY(0deg); }*/
+/*    75.00% { transform: skewY(0deg); }*/
+/*    87.30% { transform: skewY(0deg); }*/
+/*}*/
+/*@keyframes vikingFootLeft {*/
+/*    0%, 100% { transform: rotate(0deg); }*/
+/*    12.50% { transform: rotate(17deg); }*/
+/*    25.00% { transform: rotate(34deg); }*/
+/*    37.44% { transform: rotate(17deg); }*/
+/*    54.16% { transform: rotate(0deg); }*/
+/*    66.50% { transform: rotate(0deg); }*/
+/*    75.00% { transform: rotate(0deg); }*/
+/*    87.30% { transform: rotate(0deg); }*/
+/*}*/
+
+/*@keyframes vikingHead {*/
+/*    0%, 100% { transform: translate(5px, 3px) rotate(-13deg); }*/
+/*    12.50% { transform: translate(3px, 6px) rotate(-19deg); }*/
+/*    25.00% { transform: translate(6px, 0px) rotate(-11deg); }*/
+/*    37.44% { transform: translate(1px, 1px) rotate(-8deg) }*/
+/*    54.16% { transform: translate(7px, 3px) rotate(-14deg); }*/
+/*    66.50% { transform: translate(3px, 6px) rotate(-18deg); }*/
+/*    75.00% { transform: translate(1px, 2px) rotate(-14deg); }*/
+/*    87.30% { transform: translate(4px, 1px) rotate(-8deg); }*/
+/*}*/
+/*@keyframes vikingBeard {*/
+/*    0%, 100% { transform: translateY(-30px); }*/
+/*    12.50% { transform: translateY(-18px); }*/
+/*    25.00% { transform: translateY(-7px); }*/
+/*    37.44% { transform: translateY(-18px); }*/
+/*    54.16% { transform: translateY(-30px); }*/
+/*    66.50% { transform: translateY(-14px); }*/
+/*    75.00% { transform: translateY(-6px); }*/
+/*    87.30% { transform: translateY(-18px); }*/
+/*}*/
+
+/*@keyframes vikingShoulderLeft {*/
+/*    0%, 100% { transform: translate(-1px, -13px) rotate(-6deg); }*/
+/*    12.50% { transform: translate(7px, -15px) rotate(-33deg); }*/
+/*    25.00% { transform: translate(15px, -18px) rotate(-40deg); }*/
+/*    37.44% { transform: translate(7px, -14px) rotate(-33deg) }*/
+/*    54.16% { transform: translate(-3px, -15px) rotate(3deg); }*/
+/*    66.50% { transform: translate(-14px, -9px) rotate(21deg); }*/
+/*    75.00% { transform: translate(-18px, -11px) rotate(27deg); }*/
+/*    87.30% { transform: translate(-12px, -12px) rotate(15deg); }*/
+/*}*/
+/*@keyframes vikingArmLeft {*/
+/*    0%, 100% { transform: rotate(-4deg); }*/
+/*    12.50% { transform: rotate(-11deg); }*/
+/*    25.00% { transform: rotate(-27deg); }*/
+/*    37.44% { transform: rotate(-40deg); }*/
+/*    54.16% { transform: rotate(-50deg); }*/
+/*    66.50% { transform: rotate(-37deg); }*/
+/*    75.00% { transform: rotate(-26deg); }*/
+/*    87.30% { transform: rotate(-9deg); }*/
+/*}*/
